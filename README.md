@@ -32,11 +32,11 @@ ISConsoleApp - Top level Executable Project
 
 IS.Core - Class Library to allow developers to store code such as Constants, Exceptions, StringConverters etc. Is used to prevent duplicating code and hardcoding.
 
-SP.Domain - Currently only storing Domain Models.
+IS.Domain - Currently only storing Domain Models.
 
-SP.Services - Class Library that is called by the top level project. If the solution is expanded, It would have access to the Repository and Database Project.
+IS.Services - Class Library that is called by the top level project. If the solution is expanded, It would have access to the Repository and Database Project.
 
-SP.Validator - Class Library for validating the fields of a request.
+IS.Validator - Class Library for validating the fields of a request.
 
 ![image](https://user-images.githubusercontent.com/42835367/204232222-df329bb6-ff87-4a82-b47d-80733ab926b3.png)
 
