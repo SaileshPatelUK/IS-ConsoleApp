@@ -1,0 +1,75 @@
+[
+    {
+        "XCoordinate": "0",
+        "YCoordinate": "0",
+        "FaceDirection": "NORTH",
+        "EventType": "1"
+    },
+    {
+        "XCoordinate": "0",
+        "YCoordinate": "0",
+        "FaceDirection": "NORTH",
+        "EventType": "2"
+    },
+    {
+        "XCoordinate": "0",
+        "YCoordinate": "0",
+        "FaceDirection": "NORTH",
+        "EventType": "5"
+    },
+    {
+
+        "XCoordinate": "0",
+        "YCoordinate": "0",
+        "FaceDirection": "NORTH",
+        "EventType": "1"
+    },
+    {
+        "XCoordinate": "0",
+        "YCoordinate": "0",
+        "FaceDirection": "NORTH",
+        "EventType": "3"
+    },
+    {
+        "XCoordinate": "0",
+        "YCoordinate": "0",
+        "FaceDirection": "NORTH",
+        "EventType": "5"
+    },
+    {
+        "XCoordinate": "1",
+        "YCoordinate": "2",
+        "FaceDirection": "EAST",
+        "EventType": "1"
+    },
+    {
+        "XCoordinate": "0",
+        "YCoordinate": "0",
+        "FaceDirection": "NORTH",
+        "EventType": "2"
+    },
+    {
+        "XCoordinate": "0",
+        "YCoordinate": "0",
+        "FaceDirection": "NORTH",
+        "EventType": "2"
+    },
+    {
+        "XCoordinate": "0",
+        "YCoordinate": "0",
+        "FaceDirection": "NORTH",
+        "EventType": "3"
+    },
+    {
+        "XCoordinate": "0",
+        "YCoordinate": "0",
+        "FaceDirection": "NORTH",
+        "EventType": "2"
+    },
+    {
+        "XCoordinate": "0",
+        "YCoordinate": "0",
+        "FaceDirection": "NORTH",
+        "EventType": "5"
+    }
+]
