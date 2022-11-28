@@ -90,7 +90,8 @@ namespace IS.Services
 
         public virtual void Move(TItemBaseType model, TMovementBaseType input)
         {
-            switch (input.FaceDirection)
+            var faceDirection = input.EventType == 1 ? input.FaceDirection : model.FaceDirection;
+            switch (faceDirection)
             {
                 case Movements.North:
                     model.YCoordinate = model.YCoordinate + 1;
@@ -111,16 +112,16 @@ namespace IS.Services
 
         public virtual void LeftOrRight(TItemBaseType model, TMovementBaseType input)
         {
-            var fdIndex = Array.IndexOf(Movements.ValidFaceDirections, input.FaceDirection);
+            var fdIndex = Array.IndexOf(Movements.ValidFaceDirections, model.FaceDirection);
 
-            switch (input.FaceDirection)
+            switch (input.EventType)
             {
-                case Movements.Left:
+                case (int)Events.Left:
                     model.FaceDirection = fdIndex < 1 ?
                         Movements.ValidFaceDirections.ElementAt(Movements.ValidFaceDirections.Length - 1) :
                         Movements.ValidFaceDirections.ElementAt(fdIndex - 1);
                     break;
-                case Movements.Right:
+                case (int)Events.Right:
                     model.FaceDirection = fdIndex > Movements.ValidFaceDirections.Length ?
                         Movements.ValidFaceDirections.ElementAt(fdIndex + 1) :
                         Movements.ValidFaceDirections.ElementAt(0);
