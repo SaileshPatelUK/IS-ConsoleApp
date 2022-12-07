@@ -4,7 +4,6 @@
 IS Console App
 
 # Assumptions Made
-- Using MongoDB - I have decided to use MongoDB to store the details of a request. If they tech stack changes in the future, I have architectured the code in a way that should allow us to switch out the components required for the current database in a easy and timely manner.
 - .Net Core 6.0 - I have primarily I worked 3.1 for the past 3 years but have upgraded to 6.0 recently. FYI Upgrading to newer versions of .Net requires a newer version of Visual Studio.
 - I have assumed that the table could include multiple items in the future, so I have tried to make the solution expandable as possible with this in mind. For a better look at how I've created the models to reflect this, please take a look at the Models created in DomainModels Project. 
 
